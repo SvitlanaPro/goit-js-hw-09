@@ -1,0 +1,23 @@
+.gallery {
+    display: grid;
+    grid-gap: 48px 24px;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    padding: 48px 24px;
+}
+
+.gallery-image {
+    display: block;
+    width: 360px;
+    cursor: pointer;
+    transition: transform 240ms ease-in-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+body .sl-wrapper .sl-close,
+body .sl-wrapper .sl-navigation button {
+    color: white;
+}
